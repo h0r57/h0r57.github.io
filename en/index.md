@@ -130,9 +130,13 @@ ___
 
 
 #Development
+
 ##Administration
+
 ###Useful Commands
+
 ###Vim
+
 ###Apache 2
 ###nginx
 ###MySql
