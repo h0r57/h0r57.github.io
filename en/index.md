@@ -122,230 +122,230 @@ Table of Contents
 _____________________
 
 
-#Development
+# Development
 
-##Administration
+## Administration
 
-###Useful Commands
+### Useful Commands
 
-###Vim
+### Vim
 
-###Apache 2
+### Apache 2
 
-###nginx
+### nginx
 
-###MySql
+### MySql
 
-###MariaDB
+### MariaDB
 
-###PHP
+### PHP
 
-###SSL
+### SSL
 
-###Proxy Server
+### Proxy Server
 
-###SSH
+### SSH
 
-###Honeypots
+### Honeypots
 
-###AWS
+### AWS
 
-####EC2
+#### EC2
 
-####Elastic Beanstalk
+#### Elastic Beanstalk
 
-####RDS
+#### RDS
 
-####DynamoDB
+#### DynamoDB
 
-##JavaScript
+## JavaScript
 
-###Angular.js
+### Angular.js
 
-###Node.js
+### Node.js
 
-###jQuery
+### jQuery
 
-###TypeScript
+### TypeScript
 
-###Bootstrap
+### Bootstrap
 
-###Mobile
+### Mobile
 
-####Cordova / Phonegap
+#### Cordova / Phonegap
 
-####Ionic Framework
+#### Ionic Framework
 
-####Framework 7
+#### Framework 7
 
-####Bluetooth Low Energy
+#### Bluetooth Low Energy
 
-####NFC
+#### NFC
 
-###Voice Assistants
+### Voice Assistants
 
-####Amazon Alexa
+#### Amazon Alexa
 
-####Google Home
+#### Google Home
 
-##HTML5
+## HTML5
 
-##PHP / MySQL
+## PHP / MySQL
 
-###Wordpress
+### Wordpress
 
-###Joomla
+### Joomla
 
-###Typo3
+### Typo3
 
-###Magento
+### Magento
 
-##CSS
+## CSS
 
-###Sass
+### Sass
 
-###Less
+### Less
 
-##Python
+## Python
 
-##Java
+## Java
 
-##Development Websites
+## Development Websites
 
-##Development Books
+## Development Books
 
-#Security
+# Security
 
-##Virtual Lab
+## Virtual Lab
 
-##Pre-engagement Interactions
+## Pre-engagement Interactions
 
-###Scope
+### Scope
 
-###Time Estimation
+### Time Estimation
 
-###Payment Terms
+### Payment Terms
 
-###Lines of Communication
+### Lines of Communication
 
-###Rules of Engagement
+### Rules of Engagement
 
-##Information Gathering
+## Information Gathering
 
-###Open Source Intelligence (OSINT)
+### Open Source Intelligence (OSINT)
 
-####WHOIS Lookups
+#### WHOIS Lookups
 
-###Covert Gathering
+### Covert Gathering
 
-####Physical security inspections
+#### Physical security inspections
 
-####Wireless & RF frequency scanning
+#### Wireless & RF frequency scanning
 
-####Employee behavior training inspection
+#### Employee behavior training inspection
 
-####Dumpster diving
+#### Dumpster diving
 
-###Footprinting
+### Footprinting
 
-####Port Scanning
+#### Port Scanning
 
-####Banner Grabbing
+#### Banner Grabbing
 
-####SNMP Sweeps
+#### SNMP Sweeps
 
-####DNS Zone Transfers
+#### DNS Zone Transfers
 
-####SMTP Bounce Back
+#### SMTP Bounce Back
 
-####DNS Discovery
+#### DNS Discovery
 
-####Forward/Reverse DNS
+#### Forward/Reverse DNS
 
-####DNS Bruteforce
+#### DNS Bruteforce
 
-####Web Application Discovery
+#### Web Application Discovery
 
-####Virtual Host Detection & Enumeration
+#### Virtual Host Detection & Enumeration
 
-###Identify Protection Mechanisms
+### Identify Protection Mechanisms
 
-####Network Based Protections
+#### Network Based Protections
 
-####Host Based Protections
+#### Host Based Protections
 
-####Application Level Protections
+#### Application Level Protections
 
-####Storage Protections
+#### Storage Protections
 
-####User Protections
+#### User Protections
 
-##Vulnerability Analysis
+## Vulnerability Analysis
 
-###Automated
+### Automated
 
-###Vulnerability Scanners
+### Vulnerability Scanners
 
-###Web Application Scanners
+### Web Application Scanners
 
-###VPN
+### VPN
 
-###DNS
+### DNS
 
-###Mail
+### Mail
 
-###Metadata Analysis
+### Metadata Analysis
 
-###Traffic Monitoring
+### Traffic Monitoring
 
-###Fuzzing
+### Fuzzing
 
-###Common & Default Passwords
+### Common & Default Passwords
 
-##Exploitation
+## Exploitation
 
-###Phishing
+### Phishing
 
-###Anti-Virus
+### Anti-Virus
 
-###Social Engineering
+### Social Engineering
 
-###Source Code Analysis
+### Source Code Analysis
 
-###Buffer Overflows
+### Buffer Overflows
 
-###Traffic Analysis
+### Traffic Analysis
 
-###WiFi Attacks
+### WiFi Attacks
 
-##Post Exploitation
+## Post Exploitation
 
-###Infrastructure Analysis
+### Infrastructure Analysis
 
-###Privilege Escalation
+### Privilege Escalation
 
-###Client Side Attack Against Internal Network
+### Client Side Attack Against Internal Network
 
-###Port Tunneling
+### Port Tunneling
 
-###SSH Tunneling
+### SSH Tunneling
 
-###Password Cracking
+### Password Cracking
 
-##Reporting
+## Reporting
 
-###Risk Ranking
+### Risk Ranking
 
-###Report Structure
+### Report Structure
 
-##Forensic
+## Forensic
 
-##CTF
+## CTF
 
-##Bug bounty
+## Bug bounty
 
-##Incident Response
+## Incident Response
 
-##Security Websites
+## Security Websites
 
-##Security Books
+## Security Books
