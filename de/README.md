@@ -1,5 +1,5 @@
-Table of Contents
-=================
+Inhaltsverzeichnis
+==================
 <!-- MarkdownTOC autolink="true" bracket="round" depth="0" style="unordered" indent="    " autoanchor="false" -->
 
 - [Development](#development)
