@@ -21,8 +21,6 @@ Table of Contents
             - [RDS](#rds)
             - [DynamoDB](#dynamodb)
     - [JavaScript](#javascript)
-        - [Best Practices](#best-practices)
-        - [Security](#security)
         - [Angular.js](#angularjs)
         - [Node.js](#nodejs)
         - [jQuery](#jquery)
@@ -38,11 +36,7 @@ Table of Contents
             - [Amazon Alexa](#amazon-alexa)
             - [Google Home](#google-home)
     - [HTML5](#html5)
-        - [Best Practices](#best-practices-1)
-        - [Security](#security-1)
-    - [PHP](#php-1)
-        - [Best Practices](#best-practices-2)
-        - [Security](#security-2)
+    - [PHP / MySQL](#php--mysql)
         - [Wordpress](#wordpress)
         - [Joomla](#joomla)
         - [Typo3](#typo3)
@@ -50,12 +44,11 @@ Table of Contents
     - [CSS](#css)
         - [Sass](#sass)
         - [Less](#less)
-        - [Bootstrap](#bootstrap-1)
     - [Python](#python)
     - [Java](#java)
-    - [Websites](#websites)
-    - [Books](#books)
-- [Security](#security-3)
+    - [Development Websites](#development-websites)
+    - [Development Books](#development-books)
+- [Security](#security)
     - [Virtual Lab](#virtual-lab)
     - [Pre-engagement Interactions](#pre-engagement-interactions)
         - [Scope](#scope)
@@ -121,12 +114,12 @@ Table of Contents
     - [CTF](#ctf)
     - [Bug bounty](#bug-bounty)
     - [Incident Response](#incident-response)
-    - [Websites](#websites-1)
-    - [Books](#books-1)
+    - [Security Websites](#security-websites)
+    - [Security Books](#security-books)
 
 <!-- /MarkdownTOC -->
 
-___
+_____________________
 
 
 #Development
@@ -138,119 +131,221 @@ ___
 ###Vim
 
 ###Apache 2
+
 ###nginx
+
 ###MySql
+
 ###MariaDB
+
 ###PHP
+
 ###SSL
+
 ###Proxy Server
+
 ###SSH
+
 ###Honeypots
+
 ###AWS
+
 ####EC2
+
 ####Elastic Beanstalk
+
 ####RDS
+
 ####DynamoDB
+
 ##JavaScript
-###Best Practices
-###Security
+
 ###Angular.js
+
 ###Node.js
+
 ###jQuery
+
 ###TypeScript
+
 ###Bootstrap
+
 ###Mobile
+
 ####Cordova / Phonegap
+
 ####Ionic Framework
+
 ####Framework 7
+
 ####Bluetooth Low Energy
+
 ####NFC
+
 ###Voice Assistants
+
 ####Amazon Alexa
+
 ####Google Home
+
 ##HTML5
-###Best Practices
-###Security
-##PHP
-###Best Practices
-###Security
+
+##PHP / MySQL
+
 ###Wordpress
+
 ###Joomla
+
 ###Typo3
+
 ###Magento
+
 ##CSS
+
 ###Sass
+
 ###Less
-###Bootstrap
+
 ##Python
+
 ##Java
-##Websites
-##Books
+
+##Development Websites
+
+##Development Books
+
 #Security
+
 ##Virtual Lab
+
 ##Pre-engagement Interactions
+
 ###Scope
+
 ###Time Estimation
+
 ###Payment Terms
+
 ###Lines of Communication
+
 ###Rules of Engagement
+
 ##Information Gathering
+
 ###Open Source Intelligence (OSINT)
+
 ####WHOIS Lookups
+
 ###Covert Gathering
+
 ####Physical security inspections
+
 ####Wireless & RF frequency scanning
+
 ####Employee behavior training inspection
+
 ####Dumpster diving
+
 ###Footprinting
+
 ####Port Scanning
+
 ####Banner Grabbing
+
 ####SNMP Sweeps
+
 ####DNS Zone Transfers
+
 ####SMTP Bounce Back
+
 ####DNS Discovery
+
 ####Forward/Reverse DNS
+
 ####DNS Bruteforce
+
 ####Web Application Discovery
+
 ####Virtual Host Detection & Enumeration
+
 ###Identify Protection Mechanisms
+
 ####Network Based Protections
+
 ####Host Based Protections
+
 ####Application Level Protections
+
 ####Storage Protections
+
 ####User Protections
+
 ##Vulnerability Analysis
+
 ###Automated
+
 ###Vulnerability Scanners
+
 ###Web Application Scanners
+
 ###VPN
+
 ###DNS
+
 ###Mail
+
 ###Metadata Analysis
+
 ###Traffic Monitoring
+
 ###Fuzzing
+
 ###Common & Default Passwords
+
 ##Exploitation
+
 ###Phishing
+
 ###Anti-Virus
+
 ###Social Engineering
+
 ###Source Code Analysis
+
 ###Buffer Overflows
+
 ###Traffic Analysis
+
 ###WiFi Attacks
+
 ##Post Exploitation
+
 ###Infrastructure Analysis
+
 ###Privilege Escalation
+
 ###Client Side Attack Against Internal Network
+
 ###Port Tunneling
+
 ###SSH Tunneling
+
 ###Password Cracking
+
 ##Reporting
+
 ###Risk Ranking
+
 ###Report Structure
+
 ##Forensic
+
 ##CTF
+
 ##Bug bounty
+
 ##Incident Response
-##Websites
-##Books
+
+##Security Websites
+
+##Security Books
