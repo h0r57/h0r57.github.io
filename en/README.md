@@ -8,7 +8,7 @@ Table of Contents
         - [Vim](#vim)
         - [Apache 2](#apache-2)
         - [nginx](#nginx)
-        - [MySql](#mysql)
+        - [MySQL](#mysql)
         - [MariaDB](#mariadb)
         - [PHP](#php)
         - [SSL](#ssl)
@@ -27,16 +27,16 @@ Table of Contents
         - [TypeScript](#typescript)
         - [Bootstrap](#bootstrap)
         - [Mobile](#mobile)
-            - [Cordova / Phonegap](#cordova--phonegap)
+            - [Cordova & Phonegap](#cordova--phonegap)
             - [Ionic Framework](#ionic-framework)
             - [Framework 7](#framework-7)
             - [Bluetooth Low Energy](#bluetooth-low-energy)
-            - [NFC](#nfc)
+            - [Near Field Communication](#near-field-communication)
         - [Voice Assistants](#voice-assistants)
             - [Amazon Alexa](#amazon-alexa)
             - [Google Home](#google-home)
     - [HTML5](#html5)
-    - [PHP / MySQL](#php--mysql)
+    - [PHP & MySQL](#php--mysql)
         - [Wordpress](#wordpress)
         - [Joomla](#joomla)
         - [Typo3](#typo3)
@@ -71,7 +71,7 @@ Table of Contents
             - [DNS Zone Transfers](#dns-zone-transfers)
             - [SMTP Bounce Back](#smtp-bounce-back)
             - [DNS Discovery](#dns-discovery)
-            - [Forward/Reverse DNS](#forwardreverse-dns)
+            - [Forward & Reverse DNS](#forward--reverse-dns)
             - [DNS Bruteforce](#dns-bruteforce)
             - [Web Application Discovery](#web-application-discovery)
             - [Virtual Host Detection & Enumeration](#virtual-host-detection--enumeration)
@@ -111,7 +111,7 @@ Table of Contents
         - [Risk Ranking](#risk-ranking)
         - [Report Structure](#report-structure)
     - [Forensic](#forensic)
-    - [CTF](#ctf)
+    - [Capture the Flag](#capture-the-flag)
     - [Bug bounty](#bug-bounty)
     - [Incident Response](#incident-response)
     - [Security Websites](#security-websites)
@@ -128,13 +128,15 @@ _____________________
 
 ### Useful Commands
 
+[Basic Linux Commands](development/administration/useful-commands/basic-linux-commands)
+
 ### Vim
 
 ### Apache 2
 
 ### nginx
 
-### MySql
+### MySQL
 
 ### MariaDB
 
@@ -172,7 +174,7 @@ _____________________
 
 ### Mobile
 
-#### Cordova / Phonegap
+#### Cordova & Phonegap
 
 #### Ionic Framework
 
@@ -180,7 +182,7 @@ _____________________
 
 #### Bluetooth Low Energy
 
-#### NFC
+#### Near Field Communication
 
 ### Voice Assistants
 
@@ -190,7 +192,7 @@ _____________________
 
 ## HTML5
 
-## PHP / MySQL
+## PHP & MySQL
 
 ### Wordpress
 
@@ -260,7 +262,7 @@ _____________________
 
 #### DNS Discovery
 
-#### Forward/Reverse DNS
+#### Forward & Reverse DNS
 
 #### DNS Bruteforce
 
@@ -340,7 +342,7 @@ _____________________
 
 ## Forensic
 
-## CTF
+## Capture the Flag
 
 ## Bug bounty
 

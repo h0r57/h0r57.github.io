@@ -111,7 +111,7 @@ Inhaltsverzeichnis
         - [Risiko-Ranking](#risiko-ranking)
         - [Berichtsstruktur](#berichtsstruktur)
     - [Forensik](#forensik)
-    - [CTF](#ctf)
+    - [Capture the Flag](#capture-the-flag)
     - [Bug bounty](#bug-bounty)
     - [Krisenbewältigungsmaßnahmen](#krisenbew%C3%A4ltigungsma%C3%9Fnahmen)
     - [Sicherheitswebseiten](#sicherheitswebseiten)
@@ -340,7 +340,7 @@ _____________________
 
 ## Forensik
 
-## CTF
+## Capture the Flag
 
 ## Bug bounty
 
