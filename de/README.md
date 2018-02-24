@@ -4,22 +4,18 @@ Inhaltsverzeichnis
 
 - [Development](#development)
     - [Administration](#administration)
-        - [Nützliche Kommandos](#n%C3%BCtzliche-kommandos)
+        - [Linux](#linux)
         - [Vim](#vim)
-        - [Apache 2](#apache-2)
+        - [Apache](#apache)
         - [nginx](#nginx)
         - [MySql](#mysql)
         - [MariaDB](#mariadb)
         - [PHP](#php)
         - [SSL](#ssl)
-        - [Proxy Server](#proxy-server)
+        - [Proxy](#proxy)
         - [SSH](#ssh)
         - [Honeypots](#honeypots)
         - [AWS](#aws)
-            - [EC2](#ec2)
-            - [Elastic Beanstalk](#elastic-beanstalk)
-            - [RDS](#rds)
-            - [DynamoDB](#dynamodb)
     - [JavaScript](#javascript)
         - [Angular.js](#angularjs)
         - [Node.js](#nodejs)
@@ -27,16 +23,9 @@ Inhaltsverzeichnis
         - [TypeScript](#typescript)
         - [Bootstrap](#bootstrap)
         - [Mobile](#mobile)
-            - [Cordova / Phonegap](#cordova--phonegap)
-            - [Ionic Framework](#ionic-framework)
-            - [Framework 7](#framework-7)
-            - [Bluetooth Low Energy](#bluetooth-low-energy)
-            - [NFC](#nfc)
         - [Voice Assistants](#voice-assistants)
-            - [Amazon Alexa](#amazon-alexa)
-            - [Google Home](#google-home)
     - [HTML5](#html5)
-    - [PHP / MySQL](#php--mysql)
+    - [PHP und MySQL](#php-und-mysql)
         - [Wordpress](#wordpress)
         - [Joomla](#joomla)
         - [Typo3](#typo3)
@@ -46,9 +35,8 @@ Inhaltsverzeichnis
         - [Less](#less)
     - [Python](#python)
     - [Java](#java)
-    - [Development Websites](#development-websites)
-    - [Development Books](#development-books)
-- [Security](#security)
+    - [Interessante Quellen zum Thema Development](#interessante-quellen-zum-thema-development)
+- [Information Security](#information-security)
     - [Virtuelles Labor](#virtuelles-labor)
     - [Vorbereitungen](#vorbereitungen)
         - [Umfang](#umfang)
@@ -57,30 +45,22 @@ Inhaltsverzeichnis
         - [Kommunikationswege](#kommunikationswege)
         - [Regeln des Engagements](#regeln-des-engagements)
     - [Informationsbeschaffung](#informationsbeschaffung)
-        - [Open Source Intelligence \(OSINT\)](#open-source-intelligence-osint)
-            - [WHOIS Lookups](#whois-lookups)
-        - [Verdecktes Erfassung](#verdecktes-erfassung)
-            - [Physische Sicherheitsinspektionen](#physische-sicherheitsinspektionen)
-            - [Kabellose & RF Frequenzscan](#kabellose--rf-frequenzscan)
-            - [Mitarbeiterverhalten Trainingsinspektion](#mitarbeiterverhalten-trainingsinspektion)
-            - [Dumpster diving](#dumpster-diving)
-        - [Footprinting](#footprinting)
-            - [Port-Scannen](#port-scannen)
-            - [Banner Grabbing](#banner-grabbing)
-            - [SNMP Sweeps](#snmp-sweeps)
-            - [DNS-Zonenübertragungen](#dns-zonen%C3%BCbertragungen)
-            - [SMTP Bounce Back](#smtp-bounce-back)
-            - [DNS-Erkennung](#dns-erkennung)
-            - [Forward/Reverse DNS](#forwardreverse-dns)
-            - [DNS Bruteforce](#dns-bruteforce)
-            - [Webanwendungen](#webanwendungen)
-            - [Virtuelle Hosts erkennen](#virtuelle-hosts-erkennen)
+        - [Open Source Intelligence](#open-source-intelligence)
+        - [Physische Sicherheitsinspektionen](#physische-sicherheitsinspektionen)
+        - [Radiofrequenzscans](#radiofrequenzscans)
+        - [Mitarbeiterverhalteninspektion](#mitarbeiterverhalteninspektion)
+        - [Dumpster diving](#dumpster-diving)
+        - [Port-Scannen](#port-scannen)
+        - [Banner Grabbing](#banner-grabbing)
+        - [SNMP Sweeps](#snmp-sweeps)
+        - [DNS-Zonentransfer](#dns-zonentransfer)
+        - [SMTP Bounce Back](#smtp-bounce-back)
+        - [DNS-Erkennung](#dns-erkennung)
+        - [Forward und Reverse DNS](#forward-und-reverse-dns)
+        - [DNS Bruteforce](#dns-bruteforce)
+        - [Webanwendungen](#webanwendungen)
+        - [Virtuelle Hosts erkennen](#virtuelle-hosts-erkennen)
         - [Schutzmechanismen identifizieren](#schutzmechanismen-identifizieren)
-            - [Netzwerkbasierte Schutzmechanismen](#netzwerkbasierte-schutzmechanismen)
-            - [Host-basierte Schutzmechanismen](#host-basierte-schutzmechanismen)
-            - [Schutz auf Anwendungsebene](#schutz-auf-anwendungsebene)
-            - [Speicherschutz](#speicherschutz)
-            - [Benutzerschutz](#benutzerschutz)
     - [Schwachstellenanalyse](#schwachstellenanalyse)
         - [Automatisiert](#automatisiert)
         - [Schwachstellen-Scanner](#schwachstellen-scanner)
@@ -89,15 +69,15 @@ Inhaltsverzeichnis
         - [DNS](#dns)
         - [Mail](#mail)
         - [Metadatenanalyse](#metadatenanalyse)
-        - [Traffic Überwachung](#traffic-%C3%9Cberwachung)
+        - [Netzwerk Monitoring](#netzwerk-monitoring)
         - [Fuzzing](#fuzzing)
-        - [Häufige & Standard-Passwörter](#h%C3%A4ufige--standard-passw%C3%B6rter)
+        - [Unsichere Passwörter](#unsichere-passw%C3%B6rter)
     - [Exploitation](#exploitation)
         - [Phishing](#phishing)
         - [Anti-Virus](#anti-virus)
         - [Social Engineering](#social-engineering)
         - [Quellcodeanalyse](#quellcodeanalyse)
-        - [Pufferüberläufe](#puffer%C3%BCberl%C3%A4ufe)
+        - [Pufferüberlauf](#puffer%C3%BCberlauf)
         - [Traffic Analyse](#traffic-analyse)
         - [WiFi-Angriffe](#wifi-angriffe)
     - [Post Exploitation](#post-exploitation)
@@ -106,16 +86,15 @@ Inhaltsverzeichnis
         - [Clientseitige Attacken gegen das interne Netzwerk](#clientseitige-attacken-gegen-das-interne-netzwerk)
         - [Port Tunneling](#port-tunneling)
         - [SSH Tunneling](#ssh-tunneling)
-        - [Passwörter knacken](#passw%C3%B6rter-knacken)
+        - [Hashs knacken](#hashs-knacken)
     - [Berichterstattung](#berichterstattung)
         - [Risiko-Ranking](#risiko-ranking)
         - [Berichtsstruktur](#berichtsstruktur)
     - [Forensik](#forensik)
-    - [Capture the Flag](#capture-the-flag)
-    - [Bug bounty](#bug-bounty)
-    - [Krisenbewältigungsmaßnahmen](#krisenbew%C3%A4ltigungsma%C3%9Fnahmen)
-    - [Sicherheitswebseiten](#sicherheitswebseiten)
-    - [Sicherheitsbücher](#sicherheitsb%C3%BCcher)
+    - [Capture The Flag](#capture-the-flag)
+    - [Bug Bounty](#bug-bounty)
+    - [Incident Response](#incident-response)
+    - [Interessante Quellen zum Thema Information Security](#interessante-quellen-zum-thema-information-security)
 
 <!-- /MarkdownTOC -->
 
@@ -126,11 +105,11 @@ _____________________
 
 ## Administration
 
-### Nützliche Kommandos
+### Linux
 
 ### Vim
 
-### Apache 2
+### Apache
 
 ### nginx
 
@@ -142,21 +121,13 @@ _____________________
 
 ### SSL
 
-### Proxy Server
+### Proxy
 
 ### SSH
 
 ### Honeypots
 
 ### AWS
-
-#### EC2
-
-#### Elastic Beanstalk
-
-#### RDS
-
-#### DynamoDB
 
 ## JavaScript
 
@@ -172,25 +143,11 @@ _____________________
 
 ### Mobile
 
-#### Cordova / Phonegap
-
-#### Ionic Framework
-
-#### Framework 7
-
-#### Bluetooth Low Energy
-
-#### NFC
-
 ### Voice Assistants
-
-#### Amazon Alexa
-
-#### Google Home
 
 ## HTML5
 
-## PHP / MySQL
+## PHP und MySQL
 
 ### Wordpress
 
@@ -210,11 +167,9 @@ _____________________
 
 ## Java
 
-## Development Websites
+## Interessante Quellen zum Thema Development
 
-## Development Books
-
-# Security
+# Information Security
 
 ## Virtuelles Labor
 
@@ -232,53 +187,37 @@ _____________________
 
 ## Informationsbeschaffung
 
-### Open Source Intelligence (OSINT)
+### Open Source Intelligence
 
-#### WHOIS Lookups
+### Physische Sicherheitsinspektionen
 
-### Verdecktes Erfassung
+### Radiofrequenzscans
 
-#### Physische Sicherheitsinspektionen
+### Mitarbeiterverhalteninspektion
 
-#### Kabellose & RF Frequenzscan
+### Dumpster diving
 
-#### Mitarbeiterverhalten Trainingsinspektion
+### Port-Scannen
 
-#### Dumpster diving
+### Banner Grabbing
 
-### Footprinting
+### SNMP Sweeps
 
-#### Port-Scannen
+### DNS-Zonentransfer
 
-#### Banner Grabbing
+### SMTP Bounce Back
 
-#### SNMP Sweeps
+### DNS-Erkennung
 
-#### DNS-Zonenübertragungen
+### Forward und Reverse DNS
 
-#### SMTP Bounce Back
+### DNS Bruteforce
 
-#### DNS-Erkennung
+### Webanwendungen
 
-#### Forward/Reverse DNS
-
-#### DNS Bruteforce
-
-#### Webanwendungen
-
-#### Virtuelle Hosts erkennen
+### Virtuelle Hosts erkennen
 
 ### Schutzmechanismen identifizieren
-
-#### Netzwerkbasierte Schutzmechanismen
-
-#### Host-basierte Schutzmechanismen
-
-#### Schutz auf Anwendungsebene
-
-#### Speicherschutz
-
-#### Benutzerschutz
 
 ## Schwachstellenanalyse
 
@@ -296,11 +235,11 @@ _____________________
 
 ### Metadatenanalyse
 
-### Traffic Überwachung
+### Netzwerk Monitoring
 
 ### Fuzzing
 
-### Häufige & Standard-Passwörter
+### Unsichere Passwörter
 
 ## Exploitation
 
@@ -312,7 +251,7 @@ _____________________
 
 ### Quellcodeanalyse
 
-### Pufferüberläufe
+### Pufferüberlauf
 
 ### Traffic Analyse
 
@@ -330,7 +269,7 @@ _____________________
 
 ### SSH Tunneling
 
-### Passwörter knacken
+### Hashs knacken
 
 ## Berichterstattung
 
@@ -340,12 +279,10 @@ _____________________
 
 ## Forensik
 
-## Capture the Flag
+## Capture The Flag
 
-## Bug bounty
+## Bug Bounty
 
-## Krisenbewältigungsmaßnahmen
+## Incident Response
 
-## Sicherheitswebseiten
-
-## Sicherheitsbücher
+## Interessante Quellen zum Thema Information Security
