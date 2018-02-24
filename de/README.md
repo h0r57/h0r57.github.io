@@ -23,7 +23,7 @@ Inhaltsverzeichnis
         - [TypeScript](#typescript)
         - [Bootstrap](#bootstrap)
         - [Mobile](#mobile)
-        - [Voice Assistants](#voice-assistants)
+        - [Sprachassistenten](#sprachassistenten)
     - [HTML5](#html5)
     - [PHP und MySQL](#php-und-mysql)
         - [Wordpress](#wordpress)
@@ -36,34 +36,33 @@ Inhaltsverzeichnis
     - [Python](#python)
     - [Java](#java)
     - [Interessante Quellen zum Thema Development](#interessante-quellen-zum-thema-development)
-- [Information Security](#information-security)
+- [Security](#security)
     - [Virtuelles Labor](#virtuelles-labor)
     - [Vorbereitungen](#vorbereitungen)
         - [Umfang](#umfang)
         - [Zeitschätzung](#zeitsch%C3%A4tzung)
         - [Zahlungsbedingungen](#zahlungsbedingungen)
         - [Kommunikationswege](#kommunikationswege)
-        - [Regeln des Engagements](#regeln-des-engagements)
+        - [Regeln](#regeln)
     - [Informationsbeschaffung](#informationsbeschaffung)
         - [Open Source Intelligence](#open-source-intelligence)
         - [Physische Sicherheitsinspektionen](#physische-sicherheitsinspektionen)
         - [Radiofrequenzscans](#radiofrequenzscans)
         - [Mitarbeiterverhalteninspektion](#mitarbeiterverhalteninspektion)
-        - [Dumpster diving](#dumpster-diving)
-        - [Port-Scannen](#port-scannen)
-        - [Banner Grabbing](#banner-grabbing)
-        - [SNMP Sweeps](#snmp-sweeps)
+        - [Dumpster Diving](#dumpster-diving)
+        - [Portscans](#portscans)
+        - [OS-Fingerprinting](#os-fingerprinting)
         - [DNS-Zonentransfer](#dns-zonentransfer)
         - [SMTP Bounce Back](#smtp-bounce-back)
-        - [DNS-Erkennung](#dns-erkennung)
+        - [DNS erforschen](#dns-erforschen)
         - [Forward und Reverse DNS](#forward-und-reverse-dns)
         - [DNS Bruteforce](#dns-bruteforce)
-        - [Webanwendungen](#webanwendungen)
+        - [Webanwendungen erforschen](#webanwendungen-erforschen)
         - [Virtuelle Hosts erkennen](#virtuelle-hosts-erkennen)
         - [Schutzmechanismen identifizieren](#schutzmechanismen-identifizieren)
     - [Schwachstellenanalyse](#schwachstellenanalyse)
         - [Automatisiert](#automatisiert)
-        - [Schwachstellen-Scanner](#schwachstellen-scanner)
+        - [Schwachstellenscanner](#schwachstellenscanner)
         - [Webanwendungsscanner](#webanwendungsscanner)
         - [VPN](#vpn)
         - [DNS](#dns)
@@ -72,7 +71,7 @@ Inhaltsverzeichnis
         - [Netzwerk Monitoring](#netzwerk-monitoring)
         - [Fuzzing](#fuzzing)
         - [Unsichere Passwörter](#unsichere-passw%C3%B6rter)
-    - [Exploitation](#exploitation)
+    - [Schwachstellen ausnutzen](#schwachstellen-ausnutzen)
         - [Phishing](#phishing)
         - [Anti-Virus](#anti-virus)
         - [Social Engineering](#social-engineering)
@@ -80,9 +79,9 @@ Inhaltsverzeichnis
         - [Pufferüberlauf](#puffer%C3%BCberlauf)
         - [Traffic Analyse](#traffic-analyse)
         - [WiFi-Angriffe](#wifi-angriffe)
-    - [Post Exploitation](#post-exploitation)
+    - [Nach Ausnutzung der Schwachstellen](#nach-ausnutzung-der-schwachstellen)
         - [Infrastrukturanalyse](#infrastrukturanalyse)
-        - [Privilege Escalation](#privilege-escalation)
+        - [Rechteausweitung](#rechteausweitung)
         - [Clientseitige Attacken gegen das interne Netzwerk](#clientseitige-attacken-gegen-das-interne-netzwerk)
         - [Port Tunneling](#port-tunneling)
         - [SSH Tunneling](#ssh-tunneling)
@@ -94,7 +93,7 @@ Inhaltsverzeichnis
     - [Capture The Flag](#capture-the-flag)
     - [Bug Bounty](#bug-bounty)
     - [Incident Response](#incident-response)
-    - [Interessante Quellen zum Thema Information Security](#interessante-quellen-zum-thema-information-security)
+    - [Interessante Quellen zum Thema Security](#interessante-quellen-zum-thema-security)
 
 <!-- /MarkdownTOC -->
 
@@ -143,7 +142,7 @@ _____________________
 
 ### Mobile
 
-### Voice Assistants
+### Sprachassistenten
 
 ## HTML5
 
@@ -169,7 +168,7 @@ _____________________
 
 ## Interessante Quellen zum Thema Development
 
-# Information Security
+# Security
 
 ## Virtuelles Labor
 
@@ -183,7 +182,7 @@ _____________________
 
 ### Kommunikationswege
 
-### Regeln des Engagements
+### Regeln
 
 ## Informationsbeschaffung
 
@@ -195,25 +194,23 @@ _____________________
 
 ### Mitarbeiterverhalteninspektion
 
-### Dumpster diving
+### Dumpster Diving
 
-### Port-Scannen
+### Portscans
 
-### Banner Grabbing
-
-### SNMP Sweeps
+### OS-Fingerprinting
 
 ### DNS-Zonentransfer
 
 ### SMTP Bounce Back
 
-### DNS-Erkennung
+### DNS erforschen
 
 ### Forward und Reverse DNS
 
 ### DNS Bruteforce
 
-### Webanwendungen
+### Webanwendungen erforschen
 
 ### Virtuelle Hosts erkennen
 
@@ -223,7 +220,7 @@ _____________________
 
 ### Automatisiert
 
-### Schwachstellen-Scanner
+### Schwachstellenscanner
 
 ### Webanwendungsscanner
 
@@ -241,7 +238,7 @@ _____________________
 
 ### Unsichere Passwörter
 
-## Exploitation
+## Schwachstellen ausnutzen
 
 ### Phishing
 
@@ -257,11 +254,11 @@ _____________________
 
 ### WiFi-Angriffe
 
-## Post Exploitation
+## Nach Ausnutzung der Schwachstellen
 
 ### Infrastrukturanalyse
 
-### Privilege Escalation
+### Rechteausweitung
 
 ### Clientseitige Attacken gegen das interne Netzwerk
 
@@ -285,4 +282,4 @@ _____________________
 
 ## Incident Response
 
-## Interessante Quellen zum Thema Information Security
+## Interessante Quellen zum Thema Security

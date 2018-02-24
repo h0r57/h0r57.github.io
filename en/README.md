@@ -36,7 +36,7 @@ Table of Contents
     - [Python](#python)
     - [Java](#java)
     - [Interesting Development Resources](#interesting-development-resources)
-- [Information Security](#information-security)
+- [Security](#security)
     - [Virtual Lab](#virtual-lab)
     - [Pre-Engagement Interactions](#pre-engagement-interactions)
         - [Scope](#scope)
@@ -51,8 +51,7 @@ Table of Contents
         - [Employee Behavior Inspection](#employee-behavior-inspection)
         - [Dumpster Diving](#dumpster-diving)
         - [Port Scanning](#port-scanning)
-        - [Banner Grabbing](#banner-grabbing)
-        - [SNMP Sweeps](#snmp-sweeps)
+        - [OS Fingerprinting](#os-fingerprinting)
         - [DNS Zone Transfers](#dns-zone-transfers)
         - [SMTP Bounce Back](#smtp-bounce-back)
         - [DNS Discovery](#dns-discovery)
@@ -94,7 +93,7 @@ Table of Contents
     - [Capture The Flag](#capture-the-flag)
     - [Bug Bounty](#bug-bounty)
     - [Incident Response](#incident-response)
-    - [Interesting Information Security Resources](#interesting-information-security-resources)
+    - [Interesting Security Resources](#interesting-security-resources)
 
 <!-- /MarkdownTOC -->
 
@@ -171,7 +170,7 @@ _____________________
 
 ## Interesting Development Resources
 
-# Information Security
+# Security
 
 ## Virtual Lab
 
@@ -201,9 +200,7 @@ _____________________
 
 ### Port Scanning
 
-### Banner Grabbing
-
-### SNMP Sweeps
+### OS Fingerprinting
 
 ### DNS Zone Transfers
 
@@ -287,4 +284,4 @@ _____________________
 
 ## Incident Response
 
-## Interesting Information Security Resources
+## Interesting Security Resources
