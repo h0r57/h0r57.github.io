@@ -2,286 +2,598 @@ Table of Contents
 =================
 <!-- MarkdownTOC autolink="true" bracket="round" depth="0" style="unordered" indent="    " autoanchor="false" -->
 
-- [Development](#development)
-    - [Administration](#administration)
-        - [Linux](#linux)
-        - [Vim](#vim)
-        - [Apache](#apache)
-        - [nginx](#nginx)
-        - [MySQL](#mysql)
-        - [MariaDB](#mariadb)
-        - [PHP](#php)
-        - [SSL](#ssl)
-        - [Proxy](#proxy)
-        - [SSH](#ssh)
-        - [Honeypots](#honeypots)
-        - [AWS](#aws)
-    - [JavaScript](#javascript)
-        - [Angular.js](#angularjs)
-        - [Node.js](#nodejs)
-        - [jQuery](#jquery)
-        - [TypeScript](#typescript)
-        - [Bootstrap](#bootstrap)
-        - [Mobile](#mobile)
-        - [Voice Assistants](#voice-assistants)
-    - [HTML5](#html5)
-    - [PHP and MySQL](#php-and-mysql)
-        - [Wordpress](#wordpress)
-        - [Joomla](#joomla)
-        - [Typo3](#typo3)
-        - [Magento](#magento)
-    - [CSS](#css)
-        - [Sass](#sass)
-        - [Less](#less)
-    - [Python](#python)
-    - [Java](#java)
-    - [Interesting Development Resources](#interesting-development-resources)
-- [Security](#security)
-    - [Virtual Lab](#virtual-lab)
-    - [Pre-Engagement Interactions](#pre-engagement-interactions)
-        - [Scope](#scope)
-        - [Time Estimation](#time-estimation)
-        - [Payment Terms](#payment-terms)
-        - [Lines of Communication](#lines-of-communication)
-        - [Rules of Engagement](#rules-of-engagement)
-    - [Information Gathering](#information-gathering)
-        - [Open Source Intelligence](#open-source-intelligence)
-        - [Physical Security Inspections](#physical-security-inspections)
-        - [Radio Frequency Scanning](#radio-frequency-scanning)
-        - [Employee Behavior Inspection](#employee-behavior-inspection)
-        - [Dumpster Diving](#dumpster-diving)
-        - [Port Scanning](#port-scanning)
-        - [OS Fingerprinting](#os-fingerprinting)
-        - [DNS Zone Transfers](#dns-zone-transfers)
-        - [SMTP Bounce Back](#smtp-bounce-back)
-        - [DNS Discovery](#dns-discovery)
-        - [Forward and Reverse DNS](#forward-and-reverse-dns)
-        - [DNS Bruteforce](#dns-bruteforce)
-        - [Web Application Discovery](#web-application-discovery)
-        - [Virtual Host Detection](#virtual-host-detection)
-        - [Identify Protection Mechanisms](#identify-protection-mechanisms)
-    - [Vulnerability Analysis](#vulnerability-analysis)
-        - [Automated](#automated)
-        - [Vulnerability Scanners](#vulnerability-scanners)
-        - [Web Application Scanners](#web-application-scanners)
-        - [VPN](#vpn)
-        - [DNS](#dns)
-        - [Mail](#mail)
-        - [Metadata Analysis](#metadata-analysis)
-        - [Network Monitoring](#network-monitoring)
-        - [Fuzzing](#fuzzing)
-        - [Insecure Passwords](#insecure-passwords)
-    - [Exploitation](#exploitation)
-        - [Phishing](#phishing)
-        - [Anti-Virus](#anti-virus)
-        - [Social Engineering](#social-engineering)
-        - [Source Code Analysis](#source-code-analysis)
-        - [Buffer Overflows](#buffer-overflows)
-        - [Traffic Analysis](#traffic-analysis)
-        - [WiFi Attacks](#wifi-attacks)
-    - [Post Exploitation](#post-exploitation)
-        - [Infrastructure Analysis](#infrastructure-analysis)
-        - [Privilege Escalation](#privilege-escalation)
-        - [Client Side Attack Against Internal Network](#client-side-attack-against-internal-network)
-        - [Port Tunneling](#port-tunneling)
-        - [SSH Tunneling](#ssh-tunneling)
-        - [Hash Cracking](#hash-cracking)
-    - [Reporting](#reporting)
-        - [Risk Ranking](#risk-ranking)
-        - [Report Structure](#report-structure)
-    - [Forensic](#forensic)
-    - [Capture The Flag](#capture-the-flag)
-    - [Bug Bounty](#bug-bounty)
-    - [Incident Response](#incident-response)
-    - [Interesting Security Resources](#interesting-security-resources)
+- [Administration](#administration)
+    - [Linux](#linux)
+    - [Windows](#windows)
+    - [MacOS](#macos)
+    - [Apache](#apache)
+    - [nginx](#nginx)
+    - [MySQL](#mysql)
+    - [PHP](#php)
+    - [AWS](#aws)
+- [JavaScript](#javascript)
+- [HTML5](#html5)
+- [PHP](#php-1)
+- [Python](#python)
+- [Java](#java)
+- [Ruby](#ruby)
+- [Training](#training)
+- [Virtual Lab](#virtual-lab)
+- [Pre-Engagement Interactions](#pre-engagement-interactions)
+- [Information Gathering](#information-gathering)
+    - [OSINT Analysis](#osint-analysis)
+    - [DNS Analysis](#dns-analysis)
+    - [IDS and IPS Identification](#ids-and-ips-identification)
+    - [Live Host Identification](#live-host-identification)
+    - [Network and Port Scannning](#network-and-port-scannning)
+    - [Route Analysis](#route-analysis)
+    - [SMB Analysis](#smb-analysis)
+    - [SMTP Analysis](#smtp-analysis)
+    - [SNMP Analysis](#snmp-analysis)
+    - [SSL Analysis](#ssl-analysis)
+- [Vulnerability Analysis](#vulnerability-analysis)
+    - [Cisco Tools](#cisco-tools)
+    - [Fuzzing](#fuzzing)
+    - [Stress Testing](#stress-testing)
+    - [VoIP](#voip)
+    - [Network](#network)
+    - [Web Application](#web-application)
+- [Exploitation](#exploitation)
+    - [Browser](#browser)
+    - [Database](#database)
+    - [Network](#network-1)
+    - [Web Application](#web-application-1)
+- [Privilege Escalation](#privilege-escalation)
+    - [Password](#password)
+    - [Sniffing](#sniffing)
+    - [Spoofing](#spoofing)
+- [Maintaining Access](#maintaining-access)
+    - [Tunneling](#tunneling)
+    - [Web Backdoors](#web-backdoors)
+    - [OS Backdoors](#os-backdoors)
+- [Wireless](#wireless)
+    - [802.11](#80211)
+    - [Bluetooth](#bluetooth)
+    - [RFID and NFC](#rfid-and-nfc)
+- [Digital Forensics](#digital-forensics)
+- [Reverse Engeneering](#reverse-engeneering)
+- [Social Engineering](#social-engineering)
+- [Mobile](#mobile)
+    - [Android](#android)
+    - [iOS](#ios)
+- [Reporting](#reporting)
+- [Bug Bounty](#bug-bounty)
+- [Incident Response](#incident-response)
+- [Anonymity](#anonymity)
+- [Interesting Security Resources](#interesting-security-resources)
 
 <!-- /MarkdownTOC -->
 
 _____________________
 
+# Administration
 
-# Development
-
-## Administration
-
-### Linux
+## Linux
 
 [Basic Linux Commands](Development/Administration/Linux/Basic_Linux_Commands.md)
 
-### Vim
+## Windows
 
-### Apache
+## MacOS
 
-### nginx
+## Apache
 
-### MySQL
+## nginx
 
-### MariaDB
+## MySQL
 
-### PHP
+## PHP
 
-### SSL
+## AWS
 
-### Proxy
+https://github.com/toniblyx/prowler
 
-### SSH
+# JavaScript
 
-### Honeypots
+# HTML5
 
-### AWS
+# PHP
 
-## JavaScript
+# Python
 
-### Angular.js
+# Java
 
-### Node.js
+# Ruby
 
-### jQuery
+# Training
 
-### TypeScript
+# Virtual Lab
 
-### Bootstrap
+Kali Linux
+Parrot OS
+Backbox
+Metasploitable
 
-### Mobile
+# Pre-Engagement Interactions
 
-### Voice Assistants
+# Information Gathering
 
-## HTML5
+## OSINT Analysis
 
-## PHP and MySQL
+automater
+casefile
+creepy
+maltego
+metagoofil
+theharvester
+twofi
+urlcrazy
 
-### Wordpress
+## DNS Analysis
 
-### Joomla
+dnsdict6
+dnsenum
+dnsmap
+dnsmap
+dnsrecon
+dnsrevenum6
+dnstracer
+dnswalk
+fierce
+urlcrazy
 
-### Typo3
+## IDS and IPS Identification
 
-### Magento
+fragroute
+fragrouter
+ftest
+lbd
+wafw00f
 
-## CSS
+## Live Host Identification
 
-### Sass
-
-### Less
-
-## Python
-
-## Java
-
-## Interesting Development Resources
-
-# Security
-
-## Virtual Lab
-
-## Pre-Engagement Interactions
-
-### Scope
-
-### Time Estimation
-
-### Payment Terms
-
-### Lines of Communication
-
-### Rules of Engagement
-
-## Information Gathering
-
-### Open Source Intelligence
-
-### Physical Security Inspections
-
-### Radio Frequency Scanning
-
-### Employee Behavior Inspection
-
-### Dumpster Diving
-
-### Port Scanning
-
-### OS Fingerprinting
-
-### DNS Zone Transfers
-
-### SMTP Bounce Back
-
-### DNS Discovery
-
-### Forward and Reverse DNS
-
-### DNS Bruteforce
-
-### Web Application Discovery
-
-### Virtual Host Detection
-
-### Identify Protection Mechanisms
-
-## Vulnerability Analysis
-
-### Automated
-
-### Vulnerability Scanners
-
-### Web Application Scanners
-
-### VPN
-
-### DNS
-
-### Mail
-
-### Metadata Analysis
-
-### Network Monitoring
-
-### Fuzzing
-
-### Insecure Passwords
-
-## Exploitation
-
-### Phishing
-
-### Anti-Virus
-
-### Social Engineering
-
-### Source Code Analysis
-
-### Buffer Overflows
-
-### Traffic Analysis
-
-### WiFi Attacks
-
-## Post Exploitation
-
-### Infrastructure Analysis
-
-### Privilege Escalation
-
-### Client Side Attack Against Internal Network
-
-### Port Tunneling
-
-### SSH Tunneling
-
-### Hash Cracking
-
-## Reporting
-
-### Risk Ranking
-
-### Report Structure
-
-## Forensic
-
-## Capture The Flag
-
-## Bug Bounty
-
-## Incident Response
-
-## Interesting Security Resources
+arping
+cdpsnarf
+detect-new-ip6
+detect_sniffer6
+fping
+hping3
+inverse_lookup6
+masscan
+miranda
+ncat
+passive_discovery6
+thcping6
+unicornscan
+wol-e
+xprobe2
+
+## Network and Port Scannning
+
+etherape
+masscan
+nmap
+unicornscan
+wireshark
+zenmap
+
+## Route Analysis
+
+0trace
+intrace
+irpas-ass
+irpass-cdp
+netdiscover
+netmask
+trace6
+
+## SMB Analysis
+
+acccheck
+enum4linux
+nbtscan
+smbmap
+
+## SMTP Analysis
+
+smtp-user-enum
+swaks
+
+## SNMP Analysis
+
+braa
+onesixtyone
+snmp-check
+
+## SSL Analysis
+
+sslcaudit
+ssldump
+sslh
+sslscan
+sslyze
+tlssled
+
+# Vulnerability Analysis
+
+## Cisco Tools
+
+cisco-auditing-tool
+cisco-global-exploiter
+cisco-ocs
+cisco-torch
+copy-router-config
+merge-router-config
+yersinia
+
+## Fuzzing
+
+bed
+fuzz_ip6
+ohrwurm
+powerfuzzer
+sfuzz
+siparmyknife
+spike-generic
+
+## Stress Testing
+
+denial6
+dhcpig
+dos-new-ip6
+flood
+fragmentation6
+iaxflood
+inviteflood
+kill_router6
+macof
+rsmurf6
+siege
+slowhttptest
+smurf6
+t50
+thc-ssl-dos
+
+## VoIP
+
+enumiax
+iaxflood
+inviteflood
+msgsnarf
+ohrwurm
+protos-sip
+rtpbreak
+rtpflood
+rtpinsertsound
+rtpmixsound
+sctpscan
+siparmyknife
+sipp
+sipsak
+svcrack
+svcrash
+svmap
+svreport
+svwar
+voiphopper
+
+## Network
+
+golismero
+lynis
+nikto
+nmap
+openvas
+unix-privesc-check
+
+## Web Application
+
+nikito
+skipfish
+wapiti
+ZAP
+burpsuite
+commix
+httrack
+owasp-zap
+paros
+skipfish
+sqlmap
+vega
+webscarab
+wpscan
+blindelephant
+clusterd
+jboss-autopwn-linux
+jboss-autopwn-win
+joomscan
+plecost
+ua-tester
+apache-users
+cutycapt
+dirb
+dirbuster
+uniscan-gui
+wfuzz
+cadaver
+davtest
+deblaze
+fimap
+grabber
+joomscan
+jsql
+nikto
+owasp-mantra-ff
+padbuster
+powerfuzzer
+wapiti
+websploit
+whatweb
+xsser
+
+# Exploitation
+
+## Browser
+
+BeEF
+
+## Database
+
+bbqsql
+hexorbase
+jsql
+mdb-export
+mdb-hexdump
+mdb-parsecsv
+mdb-sql
+mdb-tables
+osscanner
+sidguesser
+sqldict
+SQLite database browser
+sqlmap
+sqlninja
+sqlsus
+tnscmd10g
+
+## Network
+
+armitage
+metasploit framework
+msf payload creator
+sandi-gui
+searchsploit
+shellnoob
+termineter
+
+## Web Application
+
+beef xxs framework
+websploit
+sqlmap
+fimap
+wpscan
+
+# Privilege Escalation
+
+## Password
+
+cewl
+crunch
+hashcat
+john
+johnny
+medusa
+ncrack
+ophcrack
+pyrit
+rainbowrack
+rcracki_mt
+wordlists
+fang
+XHydra
+
+## Sniffing
+
+driftnet
+dsniff
+Ettercap
+ngrep
+sslsniff
+sslstrip
+tscdump
+Wireshark
+
+## Spoofing
+
+arpspoof
+dnsspoof
+scapy
+yersinia
+
+# Maintaining Access
+
+## Tunneling
+
+cryptcat
+dbd
+dns2tcpc
+dns2tcpd
+exe2hex
+iodine
+miredo
+proxychains
+proxytunnel
+ptunnel
+pwnat
+socat
+sslh
+stunnel4
+udptunnel
+ncat
+
+## Web Backdoors
+
+laudanum
+nishang
+webacoo
+weevely
+
+## OS Backdoors
+
+cymothoa
+dbd
+intersect
+powersploit
+sbd
+u3-pwn
+mimikatz
+backdoor-factory
+shellter
+
+# Wireless
+
+## 802.11
+
+airbase-ng
+aircrack-ng
+airdecap-ng
+airdecloak-ng
+aireplay-ng
+airgeddon
+airmon-ng
+airodump-ng
+airolib-ng
+airserv-ng
+airtu-ng
+asleap
+bully
+cowpatty
+eapmd5pass
+fern wifi cracker
+giskismet
+wifiarp
+wifidns
+wifi-honey
+wifiping
+wifitap
+wifite
+reaver
+pyrit
+kismet
+wash
+
+## Bluetooth
+
+bluelog
+blueranger
+bluesnarfer
+btscanner
+crackle
+redfang
+spooftooph
+hcidump
+obexftp
+ussp-push
+
+## RFID and NFC
+
+# Digital Forensics
+
+autopsy
+binwalk
+bulk_extractor
+chkrootkit
+foremost
+galleta
+hashdeep
+rkhunter
+volafox
+volatility
+xplico
+yara
+dcfldd
+ddrescue
+Guymager
+foremost
+photorec
+rifiuti2
+scalpel
+testdisk
+xmount
+galleta
+pasco
+steghide
+vinetto
+DFF
+sdmem
+sfill
+srm
+sswap
+
+
+# Reverse Engeneering
+
+apktool
+clang
+clang++
+dex2jar
+edb-debugger
+flashm
+jad
+javasnoop
+Kayak
+NASM shell
+GHex
+binwalk
+Dissy
+nasm
+radare2
+wxHexEditor
+can-utils
+
+# Social Engineering
+
+thpot
+setoolkit
+
+# Mobile
+
+## Android
+
+adb
+apktool
+dex2jar
+fastboot
+jd-gui
+
+## iOS
+
+iPBA
+
+# Reporting
+
+asciinema
+casefile
+cutycapt
+dradis
+eyewitness
+farafay IDE
+keepnote
+MagicTree
+metagoofill
+pipal
+recordmydesktop
+CherryTree
+
+# Bug Bounty
+
+# Incident Response
+
+# Anonymity
+
+Tor Browser
+TorChat
+OnionShare
+
+# Interesting Security Resources
