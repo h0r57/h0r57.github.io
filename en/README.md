@@ -18,11 +18,16 @@ Table of Contents
     - [Java](#java)
     - [Ruby](#ruby)
 - [Training](#training)
+    - [Bug Bounty](#bug-bounty)
+    - [Capture The Flag](#capture-the-flag)
+    - [Certifications](#certifications)
 - [Virtual Lab](#virtual-lab)
     - [Kali Linux](#kali-linux)
     - [Parrot OS](#parrot-os)
     - [Backbox](#backbox)
     - [Metasploitable](#metasploitable)
+    - [Windows](#windows-1)
+    - [MacOS](#macos-1)
 - [Pre-Engagement Interactions](#pre-engagement-interactions)
 - [Information Gathering](#information-gathering)
     - [OSINT Analysis](#osint-analysis)
@@ -66,7 +71,6 @@ Table of Contents
     - [Android](#android)
     - [iOS](#ios)
 - [Reporting](#reporting)
-- [Bug Bounty](#bug-bounty)
 - [Incident Response](#incident-response)
 - [Anonymity](#anonymity)
 - [Interesting Security Resources](#interesting-security-resources)
@@ -111,6 +115,12 @@ https://github.com/toniblyx/prowler
 
 # Training
 
+## Bug Bounty
+
+## Capture The Flag
+
+## Certifications
+
 # Virtual Lab
 
 ## Kali Linux
@@ -120,6 +130,10 @@ https://github.com/toniblyx/prowler
 ## Backbox
 
 ## Metasploitable
+
+## Windows
+
+## MacOS
 
 # Pre-Engagement Interactions
 
@@ -592,8 +606,6 @@ metagoofill
 pipal
 recordmydesktop
 CherryTree
-
-# Bug Bounty
 
 # Incident Response
 
