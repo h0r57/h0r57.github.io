@@ -19,6 +19,10 @@ Table of Contents
     - [Ruby](#ruby)
 - [Training](#training)
 - [Virtual Lab](#virtual-lab)
+    - [Kali Linux](#kali-linux)
+    - [Parrot OS](#parrot-os)
+    - [Backbox](#backbox)
+    - [Metasploitable](#metasploitable)
 - [Pre-Engagement Interactions](#pre-engagement-interactions)
 - [Information Gathering](#information-gathering)
     - [OSINT Analysis](#osint-analysis)
@@ -109,10 +113,13 @@ https://github.com/toniblyx/prowler
 
 # Virtual Lab
 
-Kali Linux
-Parrot OS
-Backbox
-Metasploitable
+## Kali Linux
+
+## Parrot OS
+
+## Backbox
+
+## Metasploitable
 
 # Pre-Engagement Interactions
 
