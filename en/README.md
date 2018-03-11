@@ -11,12 +11,12 @@ Table of Contents
     - [MySQL](#mysql)
     - [PHP](#php)
     - [AWS](#aws)
-- [JavaScript](#javascript)
-- [HTML5](#html5)
-- [PHP](#php-1)
-- [Python](#python)
-- [Java](#java)
-- [Ruby](#ruby)
+- [Programming Languages](#programming-languages)
+    - [JavaScript](#javascript)
+    - [PHP](#php-1)
+    - [Python](#python)
+    - [Java](#java)
+    - [Ruby](#ruby)
 - [Training](#training)
 - [Virtual Lab](#virtual-lab)
 - [Pre-Engagement Interactions](#pre-engagement-interactions)
@@ -93,17 +93,17 @@ _____________________
 
 https://github.com/toniblyx/prowler
 
-# JavaScript
+# Programming Languages
 
-# HTML5
+## JavaScript
 
-# PHP
+## PHP
 
-# Python
+## Python
 
-# Java
+## Java
 
-# Ruby
+## Ruby
 
 # Training
 
